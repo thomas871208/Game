@@ -42,13 +42,13 @@ public class SpaceView extends View {
     }
 
     public void setPoxsX(float poxsX) {
-        if (poxsX >= 0 && poxsX <= getHeight()) {
+        if (poxsX >= 0 && poxsX <= getHeight()-450){
             this.poxsX = poxsX;
         }
     }
 
     public void setPoxsY(float poxsY) {
-        if(poxsY >= 0 && poxsY<= getWidth()){
+        if(poxsY >= 0 && poxsY<= getWidth()+30){
             this.poxsY = poxsY;
         }
     }
